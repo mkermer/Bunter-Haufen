@@ -1,3 +1,25 @@
-h1{
-    color: red;
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Major+Mono+Display&family=Monoton&family=Tourney&family=Train+One&display=swap');
+
+body{
+    background-image: url('../src/img/david-becker-YCF34YywBrs-unsplash.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-position: 100% 30%;
+    background-color: #000;
+    background-attachment: fixed;
 }
+
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #a200c7,
+      0 0 82px #a200c7,
+      0 0 92px #a200c7,
+      0 0 102px #a200c7,
+      0 0 151px #a200c7;
+  }

@@ -1,13 +1,26 @@
 import React from 'react';
+import Gap from '../Gap/Gap';
+import Hero from './Hero';
+import './Home.scss';
 
-const HelloWorld = () => {
+
+const Home = () => {
 
     return (
         <div className="content">
-            <h1>Hello World</h1>
+            <Hero />
+
+            <Gap height="20em"/>
+
+            <Hero />
+
+            <Gap height="5em" />
+
+            <Hero />
+
         </div>
     )
 }
 
 
-export default HelloWorld;
+export default Home;

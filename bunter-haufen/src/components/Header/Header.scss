@@ -1,0 +1,19 @@
+.navbar{
+    background-image: url(../../img/SL-060521-43530-19.jpg);
+    height: 5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    & *{
+        color: #fff !important;
+    }
+
+    .navbar-brand{
+        font-family: 'Train One', cursive;
+        font-size: 2em;
+    }
+
+    .nav-link{
+        font-size: 1.5em;
+    }
+}

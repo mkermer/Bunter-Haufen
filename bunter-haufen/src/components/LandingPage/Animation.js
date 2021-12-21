@@ -33,4 +33,4 @@ const AnimationLogo = () => {
     </>
 };
 
-export default AnimationLogo;
+export default Animation;
