@@ -11,10 +11,10 @@ const Header = () => {
                 <Navbar.Brand href="#home" className="neonText">Bunter Haufen</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
-                    <Nav.Link href="#who">Wer wir sind</Nav.Link>
-                    <Nav.Link href="#what">Was wir machen</Nav.Link>
-                    <Nav.Link href="#manifest">Manifest</Nav.Link>
+                <Nav className="justify-content-end">
+                    <Nav.Link href="#Wie">Wie hat alles begonnen</Nav.Link>
+                    <Nav.Link href="#Was">Was ist der Bunte Haufen</Nav.Link>
+                    <Nav.Link href="#Social">Der Bunte Haufen auf Social Media</Nav.Link>
                     <Nav.Link href="#coc">Verhaltenskodex</Nav.Link>
                     {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

@@ -1,18 +1,73 @@
 .hero{
-    min-height: 20em;
+    min-height: 10em;
     background-color: rgba($color: #000000, $alpha: 0.8);
     color: #fff;
+    padding: 3em 0;
 
-    h1{
+    h1, h2{
         text-align: center;
         width: 100%;
         text-transform: uppercase;
-        font-size: 4em;
         // font-family: 'Bungee Inline', cursive;
         // font-family: 'Major Mono Display', monospace;
         // font-family: 'Monoton', cursive;
         // font-family: 'Tourney', cursive;
         font-family: 'Train One', cursive;
     }
+
+    h1{
+        font-size: 4em;
+    }
+
+    h2{
+        font-size: 2.5em;
+        padding-bottom: 1.5em;
+    }
+
+    div.marker > p{
+        font-family: 'Permanent Marker', cursive;
+        // font-family: 'Vujahday Script', cursive;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    p,ul{
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+
+    }
+
+    &.social{
+        & a{
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            width: 150px;
+            height: 150px;
+            background-color: #5865F2;
+            border-radius: 50%;
+            transition: all ease-in-out 0.3s;
+            & > svg{
+                color:#fff;
+                margin-top: 25px;
+            }
+
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+
+        & .discord{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h3{
+                margin-bottom: 2em;
+            }
+        }
+    }
 }
+
+
 

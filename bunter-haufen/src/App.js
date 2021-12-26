@@ -12,6 +12,7 @@ function App() {
             {/* <Route path="/home" component={Home} /> */}
             {/* <Route path="/" exact component={Home} /> */}
             <Home />
+            
         </DashProvider>
   );
 }

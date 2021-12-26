@@ -1,9 +1,12 @@
 .navbar{
-    background-image: url(../../img/SL-060521-43530-19.jpg);
-    height: 5em;
+    background-image: url(../../img/background.jpg);
+    height: 4em;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    top: 0;
+    position: sticky;
+    // background-color: black !important;
     & *{
         color: #fff !important;
     }
@@ -14,6 +17,7 @@
     }
 
     .nav-link{
-        font-size: 1.5em;
+        font-size: 1.2em;
+        font-family: 'Comfortaa', cursive;
     }
 }

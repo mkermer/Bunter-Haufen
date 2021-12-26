@@ -7,7 +7,7 @@ const LandingPage = () => {
 
     return (
         <div className="content">
-            <img className="logo rotate-slide-out" src={Logo} alt="Logo"/>
+            {/* <img className="logo rotate-slide-out" src={Logo} alt="Logo"/> */}
             {/* <Animation /> */}
         </div>
     )

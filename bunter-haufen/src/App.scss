@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Major+Mono+Display&family=Monoton&family=Tourney&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Vujahday+Script&display=swap');
 
 body{
     background-image: url('../src/img/david-becker-YCF34YywBrs-unsplash.jpg');
@@ -11,7 +13,7 @@ body{
     background-attachment: fixed;
 }
 
-.neonText {
+.neonTextLila {
     color: #fff;
     text-shadow:
       0 0 7px #fff,
@@ -23,3 +25,62 @@ body{
       0 0 102px #a200c7,
       0 0 151px #a200c7;
   }
+
+.neonTextBlau {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #3700ff,
+      0 0 82px #3700ff,
+      0 0 92px #3700ff,
+      0 0 102px #3700ff,
+      0 0 151px #3700ff;
+  }
+
+  .neonTextGruen {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #09ff00,
+      0 0 82px #09ff00,
+      0 0 92px #09ff00,
+      0 0 102px #09ff00,
+      0 0 151px #09ff00;
+  }
+
+  .neonTextGelb {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #fbff00,
+      0 0 82px #fbff00,
+      0 0 92px #fbff00,
+      0 0 102px #fbff00,
+      0 0 151px #fbff00;
+  }
+
+  .neonTextRot {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff0000,
+      0 0 82px #ff0000,
+      0 0 92px #ff0000,
+      0 0 102px #ff0000,
+      0 0 151px #ff0000;
+  }
+
+  p{
+    // font-family: 'Comfortaa', cursive;
+    // font-family: 'Oooh Baby', cursive;
+  }
+
+  
